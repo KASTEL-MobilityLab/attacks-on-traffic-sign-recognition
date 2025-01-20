@@ -20,15 +20,15 @@ Three architectures, deliberately developed for the traffic sign classification 
 
 * **CNN$_{small}$** is the original LISA-CNN as proposed by [Eykholt et al.](https://openaccess.thecvf.com/content_cvpr_2018/papers/Eykholt_Robust_Physical-World_Attacks_CVPR_2018_paper.pdf). We used the PyTorch implementation by [Zhong et al.](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhong_Shadows_Can_Be_Dangerous_Stealthy_and_Effective_Physical-World_Adversarial_Attack_CVPR_2022_paper.pdf) (code avalaible [here](https://github.com/hncszyq/ShadowAttack)) and extended it to the GTSRB data.
 
-![](traffic_sign_classification/CNN-small_s.png)
+![](CNN-small_s.png)
 
 * **CNN$_{large}$** is the original GTSRB-CNN based on the multi-scale CNN by [Sermanet et al.](https://sermanet.github.io/papers/sermanet-ijcnn-11.pdf) and a later [implementation by Yadav](https://github.com/vxy10/p2-TrafficSigns). We adapted the implementation from [Zhong et al.](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhong_Shadows_Can_Be_Dangerous_Stealthy_and_Effective_Physical-World_Adversarial_Attack_CVPR_2022_paper.pdf) and extended it to the LISA dataset.
 
-![](traffic_sign_classification/CNN-large_s.png)
+![](CNN-large_s.png)
 
 * **CNN-STN**: we used the original implementation by [Garcia et al.](https://github.com/poojahira/gtsrb-pytorch) and extended it to the LISA dataset.
 
-![](traffic_sign_classification/transformer_s.png)
+![](transformer_s.png)
 
 and five generic image classification models with a comparable number of parameters:
 * **ResNet18**
